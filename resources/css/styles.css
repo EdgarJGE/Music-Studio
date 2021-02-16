@@ -1,0 +1,238 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #222831;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+/* Menu Section */
+nav {
+    background-color: #222831;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+}
+
+nav .logo {
+    height: 60px;
+    padding-left: 5%;
+}
+
+nav .logo img {
+    max-height: 100%;
+    width: auto;
+}
+
+nav .menu {
+    padding-right: 5%;
+    width: 30%;
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.2rem;
+}
+
+nav .menu ul li a:hover {
+    color: rgb(211, 211, 211);
+    border-bottom: 2px solid rgb(211, 211, 211);
+}
+
+/* Header Section */
+header {
+    background-image: linear-gradient(rgba(34, 40, 49, 0.6), rgba(34, 40, 49, 0.6)), url('../img/studio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    padding-left: 5%;
+}
+
+/* Nosotros Section */
+
+.nosotros p {
+    width: 53%;
+    margin: 0 auto;
+}
+
+/* Servicios Section */
+
+.servicios {
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+}
+
+.contenedor-servicios {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.servicio {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    color: #eee;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1px;
+}
+
+.descripcion {
+    background-color: rgba(34, 40, 49, 0.9);
+}
+
+.grabacion {
+    background-image: url('../img/grabacion.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mezcla {
+    background-image: url('../img/mezcla.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mastering {
+    background-image: url('../img/mastering.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.edicion {
+    background-image: url('../img/edicion.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Team Section*/
+
+.team {
+    width: 100%;
+    
+}
+
+.integrantes {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.integrante {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    color: #eee;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.integrante .descripcion {
+    padding-left: 20px;
+}
+
+.integrante-1 {
+    background-image: url('../img/person-1.jpg');
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.integrante-2 {
+    background-image: url('../img/person-2.jpg');
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.integrante-3 {
+    background-image: url('../img/person-3.jpg');
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+}
+
+.nombre {
+    margin-bottom: 0;
+}
+
+.work {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: rgb(202, 202, 202);
+}
+
+.contacto {
+    background-color: rgb(231, 231, 231);
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #222831;
+    color: #eee;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 0.8rem;
+}
