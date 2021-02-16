@@ -20,7 +20,7 @@ This is my solution for Codecademy's Company Home Page Challenge Project aimed t
 Project is: _finished_
 
 ## Demo
-You can see the page here: 
+You can see the page here: https://edgarjge.github.io/Music-Studio/
 
 ## Contact
 Created by [@EdgarJGE](https://www.instagram.com/edgarjge/) - feel free to contact me!
